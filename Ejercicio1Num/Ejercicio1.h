@@ -1,24 +1,25 @@
 #ifndef EJERCICIO1_H
 #define EJERCICIO1_H
-using namespace std;
+using namespace std;                                    //Para no tener que usar "std::"
 
-class averiguarNumero {
-public:
-    static void definirNum();
+namespace averiguarNumero {                             //Crear un namespace
+    void definirNum();                                  //Declaración función "definirNum"
 
 };
 
-inline void definirNum() {
-    int numIntroducido;
-    cout << "Introduzca un número entero: ";
-    cin >> numIntroducido;
+namespace averiguarNumero {
+    inline void definirNum() {                          //Definición función. El "inline" es para que no llame a la funcón, sino que copie el código y lo utilice aquí
+        int numIntroducido;                             //Variable para el número introducido
+        cout << "Introduzca un número entero: ";
+        cin >> numIntroducido;
 
-    if (numIntroducido > 0) {
-        cout << "El número es positivo" << endl;
-    } else if (numIntroducido < 0) {
-        cout << "El número es negativo" << endl;
-    } else {
-        cout << "El número es cero" << endl;
+        if (numIntroducido > 0) {                       //Comprobar si es positivo
+            cout << "El número es positivo" << endl;
+        } else if (numIntroducido < 0) {                //Comprobar si es negativo
+            cout << "El número es negativo" << endl;
+        } else {                                        //Es cero
+            cout << "El número es cero" << endl;
+        }
     }
 }
 

@@ -5,6 +5,10 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(Ejercicio1Num)
 
-add_executable(ExamenParcial2
+add_executable(Ej1
     Ejercicio1Num/Ejercicio1.cpp
     Ejercicio1Num/Ejercicio1.h)
+
+add_executable(Ej2
+    Ejercicio2Dia/Ejercicio2.cpp
+    Ejercicio2Dia/Ejercicio2.h)
