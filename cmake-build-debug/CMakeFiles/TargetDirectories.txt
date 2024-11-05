@@ -1,0 +1,6 @@
+/Users/leo/Documents/GitHub/ExamenParcial2/cmake-build-debug/CMakeFiles/Ej1.dir
+/Users/leo/Documents/GitHub/ExamenParcial2/cmake-build-debug/CMakeFiles/Ej2.dir
+/Users/leo/Documents/GitHub/ExamenParcial2/cmake-build-debug/CMakeFiles/Ej3.dir
+/Users/leo/Documents/GitHub/ExamenParcial2/cmake-build-debug/CMakeFiles/Ej4.dir
+/Users/leo/Documents/GitHub/ExamenParcial2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/leo/Documents/GitHub/ExamenParcial2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
