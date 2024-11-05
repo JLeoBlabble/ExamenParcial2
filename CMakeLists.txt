@@ -12,3 +12,7 @@ add_executable(Ej1
 add_executable(Ej2
     Ejercicio2Dia/Ejercicio2.cpp
     Ejercicio2Dia/Ejercicio2.h)
+
+add_executable(Ej3
+    Ejercicio3Prom/Ejercicio3.cpp
+    Ejercicio3Prom/Ejercicio3.h)

@@ -2,17 +2,17 @@
 #define EJERCICIO2_H
 using namespace std;
 
-namespace diaSemana {
+namespace diaSemana {                                       //Creamos un namespace para la función listaDias
     void listaDias();
 };
 
 namespace diaSemana {
-    inline void listaDias() {
-        int dia;
+    inline void listaDias() {                               //Función con la selección de dias. Utilizamos inline para que se ejecute más rápido
+        int dia;                                            //Variable del dia escogido
         cout << "Ingrese un número del 1 al 7: ";
         cin >> dia;
 
-        switch (dia) {
+        switch (dia) {                                      //Utiliza switch en vez de "for" o "if", para imprmir el dia de la semana
             case 1:
                 cout << "Lunes" << endl;
             break;
@@ -35,7 +35,7 @@ namespace diaSemana {
                 cout << "Domingo" << endl;
             break;
             default:
-                cout << "Número inválido. Por favor ingrese un número del 1 al 7." << endl;
+                cout << "Número inválido. Por favor ingrese un número del 1 al 7." << endl; //Mensaje de default por si el usuario no mete un número del 1-7
             break;
         }
 
