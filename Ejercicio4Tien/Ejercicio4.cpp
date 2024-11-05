@@ -3,5 +3,5 @@
 using namespace std;
 
 int main() {
-    productos::precioTotal();
+    productos::precioTotal();       //Llamando a la función que contiene el código
 }
