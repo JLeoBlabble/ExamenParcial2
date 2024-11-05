@@ -1,5 +1,7 @@
 # https://github.com/JLeoBlabble/ExamenParcial2.git 
 
+Github Copilot fue utilizado.
+
 ## Ejercicio 1: 
 Escribe un programa en C++ que solicite al usuario ingresar un número entero. El programa deberá analizar el número ingresado e imprimir en pantalla si el número es "positivo", "negativo" o "cero".
 Se encuentra en la carpeta "Ejercicio1Num".
